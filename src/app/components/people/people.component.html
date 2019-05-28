@@ -1,0 +1,4 @@
+<div *ngFor="let people of peoples">
+  <h2>{{people.name}}</h2>
+  <a class="btn" [routerLink]="[people.id]">détails</a>
+</div>
